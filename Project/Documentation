@@ -1,0 +1,6 @@
+Documentation
+
+React-Bootstrap app: npm start runs on the local host
+Server.js -> node server.js
+Server is running on port 5001 and my React app is running on port 3000
+
