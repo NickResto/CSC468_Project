@@ -12,7 +12,7 @@ function MainTab() {
 
   return (
     <div>
-<h3>Quick Reccomend:</h3>
+<h3>Quick Recommend:</h3>
       <ul style={{ listStyleType: 'none' }}>
         <p><li><MovieButtons updateMovies={updateMovies} /></li></p> 
       </ul>
