@@ -59,7 +59,7 @@ function SearchBar() {
             ))}
           </div>
         ) : (
-          !loading && <p>No movies found</p>
+          !loading && <p></p>
         )}
       </div>
     </Container>
