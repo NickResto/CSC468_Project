@@ -77,7 +77,7 @@ const jwt = require('jsonwebtoken');
 app.post('/register', async (req, res) => {
   const { username, password } = req.body;
 
-  // Hash the password
+  
   const hashedPassword = bcrypt.hashSync(password, 8);
 
   // Generate a unique user ID
