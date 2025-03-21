@@ -12,10 +12,11 @@ function MainTab() {
 
   return (
     <div>
+<h3>Quick Reccomend:</h3>
       <ul style={{ listStyleType: 'none' }}>
         <p><li><MovieButtons updateMovies={updateMovies} /></li></p> 
       </ul>
-
+<h3>Movie Search:</h3>
       <Searchbar updateMovies={updateMovies} />
 
       <div className="d-flex justify-content-center mt-4">
