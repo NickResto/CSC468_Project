@@ -1,9 +1,9 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap styles
+import 'bootstrap/dist/css/bootstrap.min.css'; 
 import PopularMoviesTab from './components/Tabs/PopularMoviesTab';
 import TrendingMoviesTab from './components/Tabs/TrendingMoviesTab';
-import MainTab from './components/Tabs/MainTab'; // Import the MainTab component
-import { Nav, Tab } from 'react-bootstrap'; // Import Bootstrap Tab components
+import MainTab from './components/Tabs/MainTab'; 
+import { Nav, Tab } from 'react-bootstrap'; 
 
 function App() {
   return (
