@@ -3,4 +3,5 @@ See how docker deployment goes
 Attach to cloudlab environment
 Integrate AI-engine
 Integrate user data
+Integrate nginx
 Improve UI
