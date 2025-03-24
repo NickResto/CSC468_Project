@@ -7,3 +7,4 @@ Integrate nginx
 Improve UI
 Update presentation graphic
 Running whole application 
+Close port 5001 for backend
