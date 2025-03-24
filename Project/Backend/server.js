@@ -1,7 +1,5 @@
-//npm install express
-//npm install cors
-//npm install dotenv
 
+require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const dotenv = require('dotenv');
@@ -18,6 +16,10 @@ app.get('/', (req, res) => {
   res.send('Backend is running!');
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, (err) => {
+  if (err) {
+    console.error(`Error starting server: ${err}`);
+    process.exit(1);
+  }
   console.log(`Server running on port ${PORT}`);
 });
