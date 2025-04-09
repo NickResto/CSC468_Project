@@ -5,7 +5,7 @@ services:
     build: 
       context: ./Backend
     env_file:
-      - ./backend/.env
+      - ./Backend/.env
     depends_on:
       - mongo
 
@@ -16,7 +16,7 @@ services:
     ports:
       - "3000:3000"
     depends_on:
-      - backend
+      - Backend
     stdin_open: true
     tty: true
 
