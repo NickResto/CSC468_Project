@@ -1,5 +1,5 @@
 Add comment statements throughout code and documentation at different layers
-See how docker deployment goes - server doesn't allow connections
+See how docker deployment goes - non-localhost server doesn't allow connections
 Attach to cloudlab environment - Doens't work, API file not found (.env)
 Integrate AI-engine
 Integrate user data
