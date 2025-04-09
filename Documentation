@@ -7,3 +7,6 @@ Integrate CD/CI
 
 Brook
 Push home PC login to github
+
+
+//command to check ip connection ipconfig getifaddr en0
