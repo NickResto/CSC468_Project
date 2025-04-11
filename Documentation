@@ -1,12 +1,10 @@
 Add comment statements throughout code and documentation at different layers
-See how docker deployment goes - non-localhost server doesn't allow connections
+Docker deployment through cloudlab - unable to serve local or server frontend?
 Integrate AI-engine
-Integrate user data
-
+Integrate user data through mongo
 **Integrate CD/CI - already have docker token
 
 Brook
 Push home PC login to github
-
 
 //command to check ip connection ipconfig getifaddr en0
