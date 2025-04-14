@@ -1,7 +1,7 @@
 Add comment statements throughout code and documentation at different layers
 Update technical report!
 
-Docker deployment through cloudlab - unable to serve local or server frontend?
+Docker deployment through cloudlab - unable to serve local or server frontend? - Need to create network first
 Integrate AI-engine
 Integrate user data through mongo
 **Integrate CD/CI - already have docker token
