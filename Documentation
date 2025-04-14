@@ -9,4 +9,5 @@ Integrate user data through mongo
 Brook
 Push home PC login to github
 
-//command to check ip connection ipconfig getifaddr en0
+//command to check ip connection ipconfig getifaddr en0 (only works locally on mac)
+
