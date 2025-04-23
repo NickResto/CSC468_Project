@@ -122,7 +122,7 @@ function MovieButtons() {
                     <div style={{ width: '100%', height: '300px', backgroundColor: '#ccc', borderRadius: '8px' }}></div>
                   )}
                   <h5>{movie.title}</h5>
-                  <p>{movie.overview}</p>
+                  <p className="paragraph">{movie.overview}</p>
                 </li>
               ))}
             </ul>
