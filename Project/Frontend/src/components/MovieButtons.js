@@ -3,9 +3,9 @@ import axios from 'axios';
 import { Button, ButtonGroup } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const API_KEY = 'ff6ae1ff821d74606dbfcdfec8dd320d'; // Replace with your actual API key
+const API_KEY = 'ff6ae1ff821d74606dbfcdfec8dd320d'; 
 const API_URL = 'https://api.themoviedb.org/3';
-const IMAGE_URL = 'https://image.tmdb.org/t/p/w500'; // TMDb image base URL
+const IMAGE_URL = 'https://image.tmdb.org/t/p/w500';
 
 function MovieButtons() {
   const [movies, setMovies] = useState([]);
