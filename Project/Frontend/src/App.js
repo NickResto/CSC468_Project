@@ -1,8 +1,10 @@
-//from /Project
-// 'rm -rf node_modules package-lock.json'
-// 'npm cache clean --force'
-// 'npm install'
-// /Project/Frontend 'npm start'
+/*
+  from /Project
+ 'rm -rf node_modules package-lock.json'
+ 'npm cache clean --force'
+ 'npm install'
+ /Project/Frontend 'npm start'
+*/
 
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
