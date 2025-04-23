@@ -11,6 +11,7 @@ function MainTab() {
   };
 
   return (
+    <div class="wrapper">
     <div>
 <h3>Quick Recommend:</h3>
       <ul style={{ listStyleType: 'none' }}>
@@ -18,7 +19,6 @@ function MainTab() {
       </ul>
 <h3>Movie Search:</h3>
       <Searchbar updateMovies={updateMovies} />
-
       <div className="d-flex justify-content-center mt-4">
         {movies.length > 0 ? (
           movies.map((movie) => (
@@ -42,6 +42,7 @@ function MainTab() {
         <img src="/Assets/Asset2.jpg" alt="Jurassic Park movie poster" className="img-fluid mx-4 shrinked-image" />
         <img src="/Assets/Asset3.jpg" alt="Star Wars movie poster" className="img-fluid mx-4 shrinked-image" />
       </div>
+    </div>
     </div>
   );
 }
