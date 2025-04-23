@@ -1,14 +1,7 @@
 Add comment statements throughout code and documentation at different layers
 Update technical report!
-
 Docker deployment through cloudlab - unable to serve local or server frontend? - Need to create network first?
 Integrate AI-engine
 Integrate user data through mongo
 **Integrate CD/CI - already have docker token
 
-Brook
-Push home PC login to github
-
-//command to check ip connection ipconfig getifaddr en0 (only works locally on mac)
-
-User 0.0.0.0 in front end instead of 127.0.0.0 
