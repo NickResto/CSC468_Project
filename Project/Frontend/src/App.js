@@ -1,6 +1,7 @@
 /*
   from /Project
- 'rm -rf node_modules package-lock.json'
+ 'rm -rf node_modules 
+ 'rm package-lock.json'
  'npm cache clean --force'
  'npm install'
  /Project/Frontend 'npm start'
