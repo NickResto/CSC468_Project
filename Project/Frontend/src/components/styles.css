@@ -139,10 +139,33 @@ h3 {
   border: 2px solid #9F956C;   
 }
 
-/* Styling for individual Tab Panes */
 .tab-pane {
   display: block;
   color: #234923;              
   font-size: 1rem;
   line-height: 1.5;
+}
+
+.paragraph {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #EBF38B;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: 'Roboto', sans-serif;
+  padding: 0.5rem;
+  border-left: 4px solid #9F956C;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
+}
+
+h5 {
+  font-size: 1.25rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #F4E87C;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);
 }
