@@ -11,7 +11,6 @@ function MainTab() {
   };
 
   return (
-    <div class="wrapper">
     <div>
 <h3>Quick Recommend:</h3>
       <ul style={{ listStyleType: 'none' }}>
@@ -42,7 +41,6 @@ function MainTab() {
         <img src="/Assets/Asset2.jpg" alt="Jurassic Park movie poster" className="img-fluid mx-4 shrinked-image" />
         <img src="/Assets/Asset3.jpg" alt="Star Wars movie poster" className="img-fluid mx-4 shrinked-image" />
       </div>
-    </div>
     </div>
   );
 }
