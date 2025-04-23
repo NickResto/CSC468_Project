@@ -15,7 +15,7 @@ function TrendingMoviesTab() {
 
   return (
     <div className="container mt-5">
-      <h2 className="text-center">Trending Movies</h2>
+      <h3 className="text-center">Trending Movies</h3>
       <div className="row">
         {movies.map((movie) => (
           <div key={movie.id} className="col-md-3 mb-4">
