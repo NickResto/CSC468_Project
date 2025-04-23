@@ -1,8 +1,8 @@
-/*from /Project
- 'rm -rf node_modules package-lock.json'
- 'npm cache clean --force'
- 'npm install'
- /Project/Frontend 'npm start' */
+//from /Project
+// 'rm -rf node_modules package-lock.json'
+// 'npm cache clean --force'
+// 'npm install'
+// /Project/Frontend 'npm start'
 
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
@@ -14,9 +14,7 @@ import { Nav, Tab } from 'react-bootstrap';
 function App() {
   return (
     <div className="App">
-      <div className="d-flex justify-content-center align-items-center">
         <h1>Reel Picks</h1>
-      </div>
 
       <Tab.Container id="movie-tabs" defaultActiveKey="main">
         <Nav variant="tabs" className="justify-content-start mb-4"> 
