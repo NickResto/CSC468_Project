@@ -1,10 +1,7 @@
 /*
-  from /Project
- 'rm -rf node_modules 
- 'rm package-lock.json'
- 'npm cache clean --force'
- 'npm install'
- /Project/Frontend 'npm start'
+/Frontend
+chmod +x ./node_modules/.bin/react-scripts
+npm start
 */
 
 import React from 'react';
