@@ -146,3 +146,21 @@ h3 {
   font-size: 1rem;
   line-height: 1.5;
 }
+.App {
+  padding: 20px;
+}
+
+.d-flex.justify-content-between {
+  margin-bottom: 20px;
+}
+.auth-forms {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.auth-toggle-btn {
+  padding: 0;
+  font-size: 0.9rem;
+}
